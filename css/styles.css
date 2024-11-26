@@ -628,4 +628,42 @@ img {
 .modal-form-message:focus {
   border-color: #4d5ae5;
 }
+/* Custom checkbox ver 1.0 */
+
+// input[type="checkbox"]:checked + .modal-form-agreement-text {
+//   color: #404bbf;
+// }
+
+.modal-form-agreement {
+}
+.modal-form-agreement-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-form-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+  cursor: pointer;
+  
+}
+.modal-form-checkbox-icon {
+}
+.modal-form-agreement-link {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
 /* #endregion */
