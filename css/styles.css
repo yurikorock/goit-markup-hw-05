@@ -591,13 +591,28 @@ img {
   line-height: 2.0;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: transparent;
+  padding-left: 16px;
 }
 
-.subs-btn {}
+.subs-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+
+
+}
 
 .hero-btn {}
 
-.footer-subscribe-btn-icon {}
+.footer-subscribe-btn-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
 
 /* #endregion */
 
