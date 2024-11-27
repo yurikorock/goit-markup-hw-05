@@ -595,6 +595,14 @@ img {
   padding-left: 16px;
 }
 
+.footer-input-email::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
 .subs-btn {
   display: flex;
   align-items: center;
